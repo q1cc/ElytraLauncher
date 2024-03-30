@@ -1,0 +1,84 @@
+{
+  "mod_elements": [
+    {
+      "name": "LauncherBlock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "launcher_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elytralauncher/models/item/launcher_block.json",
+          "src/main/resources/assets/elytralauncher/blockstates/launcher_block.json",
+          "src/main/resources/assets/elytralauncher/models/block/launcher_block.json",
+          "src/main/java/net/mcreator/elytralauncher/block/LauncherBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ElytraLauncher",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elytra_launcher",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "LauncherBlockEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "launcher_block_entity_walks_on_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/elytralauncher/procedures/LauncherBlockEntityWalksOnTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item_group.elytralauncher.elytra_launcher": "Elytra Launcher",
+      "block.elytralauncher.launcher_block": "Launcher Block"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "elytralauncher",
+    "modName": "ElytraLauncher",
+    "version": "1.0.0",
+    "author": "stefan, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.elytralauncher",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

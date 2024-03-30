@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "elytralauncher:block/launcher_block"
+    }
+  }
+}

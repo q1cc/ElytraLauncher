@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "elytralauncher:block/launcher_block_sides",
+    "top": "elytralauncher:block/launcher_block_top",
+    "side": "elytralauncher:block/launcher_block_sides",
+    "overlay": "elytralauncher:block/launcher_block_sides",
+    "particle": "elytralauncher:block/launcher_block_sides"
+  },
+  "render_type": "cutout_mipped"
+}
